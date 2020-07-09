@@ -1,0 +1,43 @@
+body {
+  margin-top: 76px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292A6;
+  background: #fff;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    font-size: 1.3rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #161616; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292A6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#showcase {
+  background: url(../img/showcase.jpg);
+  background-size: cover; }
+  #showcase .primary-overlay {
+    background: rgba(60, 148, 166, 0.671); }
+
+#Authors img {
+  margin-top: -50px; }
+
+#Authors .card:hover {
+  background: #3292A6;
+  color: #fff; }
+
+#Authors .card:hover a {
+  color: #fff; }
+
+#Authors .fa {
+  font-size: 25px; }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 50px; }
+  #About h2 {
+    font-size: 35px; }
+  #Authors h2 {
+    font-size: 35px; } }
